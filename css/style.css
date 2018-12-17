@@ -291,3 +291,16 @@ footer p span {
 .social a i {
     font-size: 18px;
 }
+
+.owl-carousel div h3{
+    text-transform: uppercase;
+    margin: 27px 0 44px 0;
+    font-family: Roboto_light;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+
+.owl-carousel div p {
+    line-height: 30px;
+    color: grey;
+}
