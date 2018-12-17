@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Roboto_bold';
+    src: url('../fonts/Roboto_bold.eot');
+    src: url('../fonts/Roboto_bold.eot') format('embedded-opentype'),
+    url('../fonts/Roboto_bold.woff2') format('woff2'),
+    url('../fonts/Roboto_bold.woff') format('woff'),
+    url('../fonts/Roboto_bold.ttf') format('truetype'),
+    url('../fonts/Roboto_bold.svg#Roboto_bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto_light';
+    src: url('../fonts/Roboto_light.eot');
+    src: url('../fonts/Roboto_light.eot') format('embedded-opentype'),
+    url('../fonts/Roboto_light.woff2') format('woff2'),
+    url('../fonts/Roboto_light.woff') format('woff'),
+    url('../fonts/Roboto_light.ttf') format('truetype'),
+    url('../fonts/Roboto_light.svg#Roboto_light') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1133px;
+    margin: auto;
+}
+
+.container a img {
+    margin: 27px 0 28px 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 2px 5px 3px #d6d6d7;
+    box-shadow: 0 2px 5px 3px #d6d6d7;
+}
+
+header:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.menu {
+    font-family: Roboto_bold;
+    font-size: 14px;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 42px 22px 38px 22px;
+    position: relative;
+}
+
+header ul li:last-child {
+    padding-right: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+header ul li a:hover {
+    color: black;
+}
+
+.psevdo:hover:before {
+    content: '__';
+    color: black;
+    position: absolute;
+    left: -25px;
+    top: -45%;
+    font-family: "Times New Roman";
+}
+
+.Banner {
+    position: relative;
+}
+
+.Banner h1 {
+    position: absolute;
+    font-size: 48px;
+    font-family: Roboto_light;
+    background-color: black;
+    color: white;
+    padding: 0 41px 0 37px;
+    text-transform: uppercase;
+    top: 30%;
+    letter-spacing: 10px;
+    left: 275px;
+}
+
+.Banner h3 {
+    position: absolute;
+    font-size: 18px;
+    font-family: Roboto_light;
+    text-transform: uppercase;
+    top: 55%;
+    letter-spacing: 10px;
+    left: 275px;
+}
+
+.Banner img {
+    width: 100%;
+}
+
+.office_info {
+    font-family: Roboto_light;
+    display: inline-block;
+    float: left;
+}
+
+.office_info h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 86px 0 18px 0;
+}
+
+.office_info h3 {
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.office_info h3:before {
+    content: '______';
+    color: black;
+    position: absolute;
+    bottom: -18px;
+    font-size: 25px;
+    font-family: "Times New Roman";
+}
+
+.office_info p {
+    font-size: 15px;
+}
+
+.office_info span {
+    color: grey;
+}
+
+.office_info p:first-of-type {
+    margin-bottom: 37px;
+}
+
+.office_info p:nth-of-type(2) {
+    margin-bottom: 37px;
+}
+
+.form {
+    display: inline-block;
+    font-family: Roboto_light;
+    float: right;
+}
+
+input {
+    line-height: 38px;
+    padding-left: 11px;
+    width: 30%;
+    margin-top: 82px;
+    border: 1px solid #ebebeb;
+    outline: none;
+    border-radius: 2px;
+}
+
+input:hover {
+    border-left: 3px solid grey;
+}
+
+#Name {
+    margin-left: 72px;
+}
+
+#Email {
+    margin-left: 31px;
+}
+
+textarea {
+    resize: none;
+    margin: 32px 0 30px 72px;
+    width: 65%;
+    border: 1px solid #ebebeb;
+    padding: 11px 0 0 11px;
+    height: 150px;
+    outline: none;
+    border-radius: 2px;
+
+}
+
+button {
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 49px 0 57px;
+    background-color: black;
+    color: #d4d4d4;
+    line-height: 39px;
+    border: none;
+    font-family: Roboto_bold;
+    margin: 0 0 79px 72px;
+    outline: none;
+}
+
+.google_map {
+    margin-bottom: 72px;
+}
+
+.container h2 {
+    font-family: Roboto_light;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.container p {
+    text-align: center;
+    color: grey;
+    line-height: 22px;
+}
+
+.owl-nav span{
+    display: none;
+}
+
+.owl-dots {
+    display: none;
+}
