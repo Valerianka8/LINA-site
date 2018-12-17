@@ -44,6 +44,8 @@ header {
     background-color: #ffffff;
     -webkit-box-shadow: 0 2px 5px 3px #d6d6d7;
     box-shadow: 0 2px 5px 3px #d6d6d7;
+    position: relative;
+    z-index: 2;
 }
 
 header:after {
@@ -224,7 +226,7 @@ button {
     margin-bottom: 72px;
 }
 
-.container h2 {
+.our_values h2 {
     font-family: Roboto_light;
     font-size: 30px;
     letter-spacing: 10px;
@@ -233,10 +235,11 @@ button {
     margin-bottom: 45px;
 }
 
-.container p {
+.our_values p {
     text-align: center;
     color: grey;
     line-height: 22px;
+    margin-bottom: 66px;
 }
 
 .owl-nav span{
@@ -245,4 +248,46 @@ button {
 
 .owl-dots {
     display: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 47px;
+    -webkit-box-shadow: 0 -6px 6px 3px #f2f2f2;
+    box-shadow: 0 -6px 6px 3px #f2f2f2;
+}
+
+footer img {
+    margin-bottom: 44px;
+}
+
+footer div {
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin-bottom: 37px;
+
+}
+
+footer p {
+    color: grey;
+    text-transform: uppercase;
+}
+
+footer p span {
+    color: black;
+}
+
+.social a {
+    display: inline-block;
+    color: grey;
+    margin: 0 28px 0 28px;
+    text-decoration: none;
+    outline: none;
+}
+
+.social a i {
+    font-size: 18px;
 }
